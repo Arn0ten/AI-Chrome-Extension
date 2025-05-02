@@ -1,5 +1,5 @@
 async function getChatGPTResponse(userInput) {
-    const apiKey = "***********"; //Ilisdi ranig openAI na api key yawa walay libre
+    const apiKey = "***********"; //Ilisdi ranig openAI na api kay hayahay kaykag akoa imong gamiton
     const endpoint = "https://api.openai.com/v1/chat/completions";
   
     const response = await fetch(endpoint, {
