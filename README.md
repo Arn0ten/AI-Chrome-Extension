@@ -28,18 +28,22 @@
 
 ### UI - Asking a Question
 
-![UI Screenshot](images/ui-screenshot.png)  
-*The user interface where you can type and ask questions.*
+![Screenshot 2025-05-02 144713](https://github.com/user-attachments/assets/f45b379e-51a8-450e-ba49-3d7cc1ff2be6)
+
+
+
 
 ### UI - During Response (Skeleton Loader)
 
-![Skeleton Loader Screenshot](images/skeleton-loader.png)  
-*The animation that appears while ChatGPT is processing the response.*
+![Screenshot 2025-05-02 144742](https://github.com/user-attachments/assets/49934e0f-c872-4bd6-83c2-28a76ae2bda5)
 
-### Extension Logo
 
-![Extension Logo](images/icon16.png)  
-*The logo of the ArnGPT extension.*
+
+### UI - Output
+
+![Screenshot 2025-05-02 144752](https://github.com/user-attachments/assets/368e2f8d-32c0-4b76-ac4a-c952341acbda)
+
+
 
 ## Technologies Used
 
@@ -57,10 +61,4 @@
 
 Contributions are welcome! Feel free to fork this repository and submit pull requests for bug fixes, new features, or improvements.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-**Note**: Replace the placeholder image paths (`images/ui-screenshot.png`, `images/skeleton-loader.png`, and `images/icon16.png`) with actual image files in your repository.
