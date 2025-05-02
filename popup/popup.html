@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChatGPT Extension</title>
+    <link rel="stylesheet" href="popup.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="chat-container">
+      <div class="chat-header">
+        <img src="/icons/icon128.png" alt="ChatGPT Logo" class="chat-logo" />
+        <h1>ArnGPT</h1>
+      </div>
+
+      <div class="chat-box">
+        <div id="responseContainer" class="response-container">
+          <p id="responseText">Your answer will appear here.</p>
+          <div id="skeletonLoader" class="skeleton-loader"></div>
+        </div>
+      </div>
+
+      <div class="input-container">
+        <textarea
+          id="userInput"
+          placeholder="Ask me anything..."
+          rows="2"
+        ></textarea>
+        <button id="askButton">Ask</button>
+      </div>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
